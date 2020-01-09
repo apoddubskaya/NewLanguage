@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NewLanguage</string>
+    <string name="category1">Numbers</string>
+    <string name="category2">Colors</string>
+    <string name="category3">Family Members</string>
+    <string name="category4">Phrases</string>
+</resources>

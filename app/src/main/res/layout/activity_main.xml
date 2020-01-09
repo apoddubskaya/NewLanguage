@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:text="@string/category1"
+            android:textColor="@color/category1Text"
+            android:background="@color/category1Background"
+            style="@style/CategoryStyle"
+            android:onClick="onClick"
+            />
+
+        <TextView
+            android:text="@string/category2"
+            android:textColor="@color/category2Text"
+            android:background="@color/category2Background"
+            style="@style/CategoryStyle"
+            android:onClick="onClick"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:text="@string/category3"
+            style="@style/CategoryStyle"
+            android:textColor="@color/category3Text"
+            android:background="@color/category3Background"
+            android:onClick="onClick"
+            />
+
+        <TextView
+            android:text="@string/category4"
+            android:textColor="@color/category4Text"
+            android:background="@color/category4Background"
+            style="@style/CategoryStyle"
+            android:onClick="onClick"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

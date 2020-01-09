@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="category1Text">@android:color/white</color>
+    <color name="category1Background">#EF6101</color>
+    <color name="category2Text">@android:color/white</color>
+    <color name="category2Background">#FDAC07</color>
+    <color name="category3Text">@android:color/white</color>
+    <color name="category3Background">#47802B</color>
+    <color name="category4Text">@android:color/white</color>
+    <color name="category4Background">#045658</color>
+</resources>
